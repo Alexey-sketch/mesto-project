@@ -1,0 +1,10 @@
+.profile__heart-icon_disabled {
+    background-image: url(../../../../images/heart-disabled.svg);
+    background-repeat: no-repeat;   
+    min-width: 22px;
+    min-height: 19px;
+    margin-top: 28px;
+    margin-bottom: 29px;
+    margin-right: 2px;
+    border: 2px solid #FFFFFF;
+  }

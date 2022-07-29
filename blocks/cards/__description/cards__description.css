@@ -1,0 +1,7 @@
+.cards__description {
+    background-color: white;
+    max-height: 79px;
+    max-width: 282px;
+    display: flex;
+    border-radius: 10px;
+}
