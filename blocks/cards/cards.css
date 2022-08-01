@@ -11,6 +11,11 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cards {
         display: flex;
-        flex-direction: column;      
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 155px;
+        padding-left: 19px;
+        padding-right: 19px;
+        min-width: 361px;
       }
   }

@@ -8,10 +8,20 @@
   display: block;
   padding-right: 18px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0;  
   }
 
-
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .profile__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 10px;
+  }
+}
 
 
 

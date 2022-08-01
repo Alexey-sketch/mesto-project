@@ -1,0 +1,23 @@
+.form__input_ctrl_job {
+  margin-left: 36px;
+  border: 0 none;
+  border-color: transparent;
+  border-bottom: opacity 0.2;
+  border: 1px solid black;
+  min-width: 358px;  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .form__input_ctrl_job {
+    margin-left: 22px;
+    }
+  }

@@ -1,4 +1,17 @@
 .profile__identity {
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+    .profile__identity {
+      display: flex;
+      margin: auto;
+      padding-right: 0;
+      padding-left: 0;
+      min-width: 231px;
+      margin-left: -31px;
+
+      }
+  }
