@@ -1,9 +1,8 @@
 .form__input_ctrl_job {
   margin-left: 36px;
   border: 0 none;
+  outline: none;
   border-color: transparent;
-  border-bottom: opacity 0.2;
-  border: 1px solid black;
   min-width: 358px;  
   font-family: 'Inter';
   font-style: normal;
@@ -15,6 +14,17 @@
   margin-bottom: 0;
 }
 
+input:focus {
+  outline: none;
+  border: 2px solid #F94018;
+  text-overflow:ellipsis !important;
+
+   }
+
+.form__button_ctrl_close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    }
 
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .form__input_ctrl_job {

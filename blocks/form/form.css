@@ -1,5 +1,6 @@
 .form {
   min-width: 430px;
+  max-width: 430px;
   top: 195px;
   bottom: 195px;
   left: 425px;

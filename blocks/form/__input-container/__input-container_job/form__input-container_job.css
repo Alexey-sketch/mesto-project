@@ -1,6 +1,7 @@
 .form__input-container_job {
     border: 0 none;
-    border-bottom: 1px black;
+    outline: none;
+    border-color: transparent;
     margin: auto;
     max-width: 358px;
     border-color: transparent;
