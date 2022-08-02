@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
-    <div class="page">
+    <main class="page">
       <header class="header">
         <div class="header__logo"></div>
       </header>
@@ -24,11 +24,11 @@
         <div class="profile__info">
           <div class="profile__identity">
             <h2 class="profile__title">Жак-Ив Кусто</h2>
-            <button class="profile__edit-button"></button>
+            <button class="profile__edit-button" type="menu"></button>
           </div>
           <p class="profile__subtitle">Исследователь океана</p>
-          <button class="profile__add-button"></button>
         </div>
+        <button class="profile__add-button" type="submit"></button>
       </section>
 
       <ul class="cards">
@@ -42,6 +42,7 @@
             <h2 class="cards__title">Карачаевск</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
@@ -56,6 +57,7 @@
             <h2 class="cards__title">Гора Эльбрус</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
@@ -70,6 +72,7 @@
             <h2 class="cards__title">Домбай</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
@@ -84,6 +87,7 @@
             <h2 class="cards__title">Гора Эльбрус</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
@@ -98,6 +102,7 @@
             <h2 class="cards__title">Домбай</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
@@ -112,42 +117,42 @@
             <h2 class="cards__title">Карачаево-Черкесия</h2>
             <button
               class="profile__heart-icon profile__heart-icon_disabled"
+              type="button"
             ></button>
           </div>
         </li>
       </ul>
 
-      <div class="pop-up">
+      <section class="pop-up">
         <div class="pop-up__container">
           <form class="form">
             <h2 class="form__title">Редактировать профиль</h2>
-            <fieldset class="form__imput-container form__input-container_name">
-              <input
-                class="form__imput_ctrl_name"
-                type="text"
-                name="name"
-                placeholder="Жак-Ив Кусто"
-              />
-            </fieldset>
-            <fieldset class="form__imput-container form__input-container_job">
-              <input
-                class="form__imput_ctrl_job"
-                type="text"
-                name="name"
-                placeholder="Исследователь океана"
-              />
-            </fieldset>
+
+            <input
+              class="form__input form__input_ctrl_name"
+              type="text"
+              name="name"
+              placeholder="Жак-Ив Кусто"
+            />
+
+            <input
+              class="form__input form__input_ctrl_job"
+              type="text"
+              name="name"
+              placeholder="Исследователь океана"
+            />
+
             <button class="form__button_ctrl_save" type="submit">
               Сохранить
             </button>
           </form>
           <div class="form__button_ctrl_close"></div>
         </div>
-      </div>
+      </section>
 
       <footer class="footer">
         <p class="footer__author">&copy; 2020 Mesto Russia</p>
       </footer>
-    </div>
+    </main>
   </body>
 </html>

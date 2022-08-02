@@ -11,7 +11,6 @@
   margin-right: 36px;
   padding-left: 0px;
   padding-right: 0px;
-
   font-family: 'Inter';
   font-style: normal; 
   font-weight: 400;
@@ -19,7 +18,7 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 17px;
+  margin-top: 57px;
 }
        
 .form__button_ctrl_save:hover {
@@ -31,11 +30,9 @@
   .form__button_ctrl_save {
     margin-left: 22px;
     margin-right: 22px;
-    padding-left: 0px;
-    padding-right: 0px;
     max-width: 238px;
     font-size: 14px;
     line-height: 17px;
-    margin-top: 41px;
+    margin-top: 52px;
     }
 }

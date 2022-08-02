@@ -1,4 +1,5 @@
 .pop-up {    
+  display: none; /* просто удалить, не менять на флекс */
   position: fixed;
   height: 100%;
   width: 100%;
