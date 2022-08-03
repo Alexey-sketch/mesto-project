@@ -1,5 +1,5 @@
 .form {
-  display: none; /* менять на флекс */
+  display: flex; /* менять на none, to turn off */
   flex-direction: column;
   margin: auto;
   margin-top: 0px;

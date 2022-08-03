@@ -2,7 +2,7 @@
     padding-right: 231px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1279px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__info {
     padding-right: 0px;
     }

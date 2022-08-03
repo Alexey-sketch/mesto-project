@@ -1,5 +1,4 @@
 .pop-up__container {
-  display: flex; /* просто удалить, не менять на флекс ?*/
   position: absolute;
   top: 195px;
   bottom: 195px;
