@@ -1,4 +1,4 @@
-.heart-icon_disabled {
+.cards__heart-icon {
     background-image: url(../../../../images/heart-disabled.svg);
     background-repeat: no-repeat;   
     min-width: 22px;
@@ -8,16 +8,16 @@
     margin-right: 10px;
     border: 0px solid #FFFFFF;
     background-position: center;
-    background-color: white;
+    background-color: transparent;
   }
 
-  .heart-icon_disabled:hover {
+  .cards__heart-icon:hover {
     cursor: pointer;
     opacity: 0.5;
   }
 
-  @media screen and (min-width: 320px) and (max-width: 1279px) {
-    .heart-icon_disabled {
-      margin-right: 20px;  
-      }
-  }
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .cards__heart-icon {
+    margin-right: 20px;  
+    }
+}

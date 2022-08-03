@@ -11,148 +11,131 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
-    <main class="page">
+    <div class="page">
       <header class="header">
         <div class="header__logo"></div>
       </header>
-      <section class="profile">
-        <img
-          class="profile__avatar"
-          src="./images/kousto-fixed.jpg"
-          alt="Фото пользователя"
-        />
-        <div class="profile__info">
-          <div class="profile__identity">
-            <h2 class="profile__title">Жак-Ив Кусто</h2>
-            <button class="profile__edit-button" type="menu"></button>
+      <main>
+        <section class="profile">
+          <img
+            class="profile__avatar"
+            src="./images/kousto-fixed.jpg"
+            alt="Фото пользователя"
+          />
+          <div class="profile__info">
+            <div class="profile__identity">
+              <h2 class="profile__title">Жак-Ив Кусто</h2>
+              <button class="profile__edit-button" type="button"></button>
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
           </div>
-          <p class="profile__subtitle">Исследователь океана</p>
+          <button class="profile__add-button" type="button"></button>
+        </section>
+
+        <section class="cards">
+          <ul class="cards__items">
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/katachaevo-cherkesiya-fixed.jpg"
+                alt="фото природы Карачаево-Черкесии"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Карачаевск</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/elbrus-fixed.jpg"
+                alt="фото Горы Эльбрус"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Гора Эльбрус</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/dombai-fixed.jpg"
+                alt="фото Домбай"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Домбай</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/elbrus-fixed.jpg"
+                alt="фото горы Эльбрус"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Гора Эльбрус</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/dombai-fixed.jpg"
+                alt="Домбай"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Домбай</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/katachaevo-cherkesiya-fixed.jpg"
+                alt="фото природы Карачаево-Черкесии"
+              />
+              <div class="cards__description">
+                <h2 class="cards__title">Карачаево-Черкесия</h2>
+                <button class="cards__heart-icon" type="button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="pop-up">
+          <div class="pop-up__container">
+            <form class="form" name="form-profile">
+              <h2 class="form__title">Редактировать профиль</h2>
+
+              <input
+                class="form__input form__input_type_name"
+                type="text"
+                name="name"
+                placeholder="Жак-Ив Кусто"
+              />
+
+              <input
+                class="form__input form__input_type_job"
+                type="text"
+                name="name"
+                placeholder="Исследователь океана"
+              />
+
+              <button class="form__button" type="submit">Сохранить</button>
+            </form>
+            <button class="pop-up__button" type="submit"></button>
+          </div>
         </div>
-        <button class="profile__add-button" type="submit"></button>
-      </section>
-
-      <ul class="cards">
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/katachaevo-cherkesiya-fixed.jpg"
-            alt="фото природы Карачаево-Черкесии"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Карачаевск</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/elbrus-fixed.jpg"
-            alt="фото Горы Эльбрус"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Гора Эльбрус</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/dombai-fixed.jpg"
-            alt="фото Домбай"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Домбай</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/elbrus-fixed.jpg"
-            alt="фото горы Эльбрус"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Гора Эльбрус</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/dombai-fixed.jpg"
-            alt="Домбай"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Домбай</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-
-        <li class="cards__item">
-          <img
-            class="cards__image"
-            src="./images/katachaevo-cherkesiya-fixed.jpg"
-            alt="фото природы Карачаево-Черкесии"
-          />
-          <div class="cards__description">
-            <h2 class="cards__title">Карачаево-Черкесия</h2>
-            <button
-              class="heart-icon heart-icon_disabled"
-              type="button"
-            ></button>
-          </div>
-        </li>
-      </ul>
-
-      <section class="pop-up">
-        <div class="pop-up__container">
-          <form class="form">
-            <h2 class="form__title">Редактировать профиль</h2>
-
-            <input
-              class="form__input form__input_ctrl_name"
-              type="text"
-              name="name"
-              placeholder="Жак-Ив Кусто"
-            />
-
-            <input
-              class="form__input form__input_ctrl_job"
-              type="text"
-              name="name"
-              placeholder="Исследователь океана"
-            />
-
-            <button class="form__button_ctrl_save" type="submit">
-              Сохранить
-            </button>
-          </form>
-          <div class="form__button_ctrl_close"></div>
-        </div>
-      </section>
-
+      </main>
       <footer class="footer">
         <p class="footer__author">&copy; 2020 Mesto Russia</p>
       </footer>
-    </main>
+    </div>
   </body>
 </html>

@@ -1,8 +1,6 @@
 .cards__description {
     background-color: white;
-    max-height: 79px;
     max-width: 282px;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
 }

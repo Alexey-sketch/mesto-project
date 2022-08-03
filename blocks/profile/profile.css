@@ -3,14 +3,12 @@
     flex-direction: row;
     margin: auto;
     max-width: 880px;
-    max-height: 169px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .profile {
       max-width: 282px;
       flex-direction: column;
-      padding-left: 100px;
-      padding-right: 78px;
+      padding-top: 50px;
       }
   }

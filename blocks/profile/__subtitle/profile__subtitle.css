@@ -1,4 +1,7 @@
 .profile__subtitle {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -15,7 +18,8 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-
     min-width: 158px;
+    padding-left: 69px;
+    padding-top: 0px;    
     }
 }
