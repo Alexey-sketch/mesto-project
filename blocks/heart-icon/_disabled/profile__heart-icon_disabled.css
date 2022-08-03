@@ -1,4 +1,4 @@
-.profile__heart-icon_disabled {
+.heart-icon_disabled {
     background-image: url(../../../../images/heart-disabled.svg);
     background-repeat: no-repeat;   
     min-width: 22px;
@@ -11,13 +11,13 @@
     background-color: white;
   }
 
-  .profile__heart-icon_disabled:hover {
+  .heart-icon_disabled:hover {
     cursor: pointer;
     opacity: 0.5;
   }
 
   @media screen and (min-width: 320px) and (max-width: 1279px) {
-    .profile__heart-icon_disabled {
+    .heart-icon_disabled {
       margin-right: 20px;  
       }
   }
