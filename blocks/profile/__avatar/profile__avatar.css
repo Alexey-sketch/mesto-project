@@ -1,6 +1,6 @@
 .profile__avatar {
-  max-width: 169px;
-  max-height: 128px;
+  width: 168.75px;
+  height: 127.5px;
   margin-top: 0px;
   margin-right: 27px;
   margin-left: 5px;
@@ -9,8 +9,11 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__avatar{
-      margin-bottom: 0;
-      margin-right: 0px; 
-      margin-left: 66px;   
+    margin-bottom: 0;
+    margin-right: 0px; 
+    margin-left: 87px;
+    width: 125.75px;
+    height: 123.5px;
+    margin-top: 1px;
     }
 }

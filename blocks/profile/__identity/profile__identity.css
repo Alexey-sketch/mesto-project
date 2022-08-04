@@ -1,15 +1,15 @@
 .profile__identity {
-    display: flex;
-    flex-direction: row;
-    padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .profile__identity {
-      margin: auto;
-      padding-right: 0;
-      padding-left: 0;
-      min-width: 231px;
-      margin-left: 54px;
-      }
-  }
+  .profile__identity {
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+    min-width: 231px;
+    margin-left: 54px;
+    }
+}
