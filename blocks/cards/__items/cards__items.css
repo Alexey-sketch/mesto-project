@@ -9,11 +9,17 @@
   align-content: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .cards__items {
+      max-width: 870px;
+    }
+  }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cards__items {
     padding-top: 34px;
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 9px;
+    padding-right: 9px;
     max-width: 361px;
     margin-top: 0;
     }
