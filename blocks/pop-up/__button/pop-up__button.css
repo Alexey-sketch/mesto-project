@@ -5,11 +5,13 @@
   background-repeat: no-repeat;
   box-sizing: border-box;  
   background-position: center;
-  position: fixed;
+  position: absolute;
   min-width: 32px;
   min-height: 32px;
-  right: 366px;
-  top: 155px;
+  right: -40px;
+  top: -40px;
+  border: none;
+  background-size: cover;
 }
                
 .pop-up__button:hover {
@@ -19,8 +21,8 @@
   
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .pop-up__button {
-    top: 87px;
-    right: 0px;
+    top: -34px;
+    right: -1px;
     min-width: 20px;
     min-height: 20px;       
     }

@@ -1,5 +1,4 @@
 .form {
-  display: none; 
   flex-direction: column;
   min-width: 430px;
   max-width: 430px;
@@ -8,16 +7,11 @@
   border-radius: 10px;
   position: relative;
   justify-content: center;
-  align-items: center;
-  margin: auto;
-  top: 195px;
-  left: 425px;
+  align-items: center; 
 }
 
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .form {
-    min-width: 282px;
-    top: 123px;
-    left: 19px;     
+    min-width: 282px;   
   }
 }
