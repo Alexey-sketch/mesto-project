@@ -1,7 +1,7 @@
 .pop-up__button {
   background: transparent;
   border-radius: 2px;
-  background-image: url(../../../../images/close-icon.svg);
+  background-image: url(../../../images/close-icon.svg);
   background-repeat: no-repeat;
   box-sizing: border-box;  
   background-position: center;
@@ -22,7 +22,7 @@
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .pop-up__button {
     top: -34px;
-    right: -1px;
+    right: 0px;
     min-width: 20px;
     min-height: 20px;       
     }

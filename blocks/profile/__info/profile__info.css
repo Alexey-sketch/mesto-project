@@ -1,12 +1,7 @@
 .profile__info {
-    margin-right: calc(100% - 638px);
+    margin-right: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .profile__info {
-    margin-right: calc(100% - 710px);;
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__info {
