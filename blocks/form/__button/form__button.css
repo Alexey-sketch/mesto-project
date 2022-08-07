@@ -16,13 +16,13 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 54px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 34px;
 }
        
 .form__button:hover {
   cursor: pointer;
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (min-width: 320px) and (max-width: 1279px) {
@@ -32,7 +32,7 @@
     max-width: 238px;
     font-size: 14px;
     line-height: 17px;
-    margin-top: 14px;
-    margin-bottom: 23px;
+    margin-top: 43px;
+    margin-bottom: 25px;
   }
 }
